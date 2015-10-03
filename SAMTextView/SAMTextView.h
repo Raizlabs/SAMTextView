@@ -36,4 +36,7 @@
  */
 - (CGRect)placeholderRectForBounds:(CGRect)bounds;
 
+@property (weak, nonatomic) NSLayoutConstraint *imageConstraint;
+- (void)clear:(id)sender;
+
 @end
